@@ -4,6 +4,8 @@ import pyautogui
 import time
 import os
 
+ImageFolderPath = r"---------------------------enter your image folder path----------------------"
+
 def find_and_click_images(image_folder, threshold=0.8, click_positions_mapping=None, counters=None):
     screenshot = pyautogui.screenshot()
     screen_np = np.array(screenshot)
@@ -57,7 +59,7 @@ def print_counters(counters):
     print("------------")
 
 if __name__ == "__main__":
-    image_folder = r"C:\Users\23liot\Desktop\Monopoly Trenches\image folder"
+    image_folder = ImageFolderPath
     if not os.path.exists(image_folder):
         exit(1)
 
