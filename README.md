@@ -10,4 +10,4 @@ If you have any questions free feel to direct message me on discord:
 Limpan002s
 
 Socials:
-fbi.bio/Limpan
+https://fbi.bio/Limpan
